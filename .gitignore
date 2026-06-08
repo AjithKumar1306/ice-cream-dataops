@@ -1,0 +1,29 @@
+# Environment variables
+.env
+.env.local
+config.test.yaml
+
+# Secrets
+*.key
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+*.egg-info/
